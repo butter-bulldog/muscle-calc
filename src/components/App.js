@@ -290,9 +290,6 @@ export default function PersistentDrawerLeft() {
 
           {/* パスに応じてコンポーネントを変える */}
           <Switch>
-            <Route exact path="/">
-              <About />
-            </Route>
             <Route exact path="/About">
               <About />
             </Route>
@@ -315,6 +312,9 @@ export default function PersistentDrawerLeft() {
             </Route>
             <Route exact path="/Level">
               <Level />
+            </Route>
+            <Route path="/">
+              <About />
             </Route>
           </Switch>
         </main>
