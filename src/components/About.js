@@ -27,11 +27,8 @@ export default function About() {
         </Grid>
 
         <Grid item xs={12}>
-          <Typography variant="caption" display="block" gutterBottom>
-            MAX重量計算など様々な計算が行えます。
-          </Typography>
-          <Typography variant="caption" display="block" gutterBottom>
-            左側のメニューを選択してください！
+          <Typography variant="caption" gutterBottom>
+            MAX重量計算など様々な計算が行えます。<br />左側のメニューを選択してください！
           </Typography>
         </Grid>
       </Grid>

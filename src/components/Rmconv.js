@@ -19,6 +19,8 @@ import Grid from '@material-ui/core/Grid';
 
 // Appコンポーネントの詳細設定のコンテキスト
 import { DetailOptions }  from './App';
+import Tooltip from "@material-ui/core/Tooltip";
+import Toolbar from "@material-ui/core/Toolbar";
 
 const useStyles = makeStyles((theme) => ({
   table: {
@@ -179,9 +181,11 @@ export default function RmConv() {
           <Typography variant="h6" gutterBottom>
             RM換算表
           </Typography>
-          <Typography variant="caption" display="block" gutterBottom>
-            挙上重量と限界回数の表を作成します。<br />持ち上げられる重量と回数から、1回だけ持ち上げられる最大重量を知ることができます。<br />あるいは1回だけ持ち上げられる最大重量から、持ち上げられる重量と回数を知ることができます。
-          </Typography>
+          <Tooltip placement="bottom" title="持ち上げられる重量と回数から、1回だけ持ち上げられる最大重量を知ることができます。あるいは1回だけ持ち上げられる最大重量から、持ち上げられる重量と回数を知ることができます。">
+            <Typography variant="caption" gutterBottom>
+              挙上重量と限界回数の表を作成します。
+            </Typography>
+          </Tooltip>
         </Grid>
         <Grid item xs={12}>
           <Divider className={classes.divider} />

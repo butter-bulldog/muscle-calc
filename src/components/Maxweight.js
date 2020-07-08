@@ -139,7 +139,7 @@ export default function Maxweight() {
           <Typography variant="h6" gutterBottom>
             MAX重量計算機
           </Typography>
-          <Typography variant="caption" display="block"  gutterBottom>
+          <Typography variant="caption" gutterBottom>
             重量と回数を入力することで、1回だけ持ち上げられる重量を知る事ができます。
           </Typography>
 
