@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/muscle-calc/static/js/main.4d9ff101.chunk.js",
-    "main.js.map": "/muscle-calc/static/js/main.4d9ff101.chunk.js.map",
+    "main.js": "/muscle-calc/static/js/main.9986e655.chunk.js",
+    "main.js.map": "/muscle-calc/static/js/main.9986e655.chunk.js.map",
     "runtime-main.js": "/muscle-calc/static/js/runtime-main.40ad7d01.js",
     "runtime-main.js.map": "/muscle-calc/static/js/runtime-main.40ad7d01.js.map",
-    "static/js/2.80a4d0bc.chunk.js": "/muscle-calc/static/js/2.80a4d0bc.chunk.js",
-    "static/js/2.80a4d0bc.chunk.js.map": "/muscle-calc/static/js/2.80a4d0bc.chunk.js.map",
+    "static/js/2.bc5588f1.chunk.js": "/muscle-calc/static/js/2.bc5588f1.chunk.js",
+    "static/js/2.bc5588f1.chunk.js.map": "/muscle-calc/static/js/2.bc5588f1.chunk.js.map",
     "index.html": "/muscle-calc/index.html",
-    "precache-manifest.71035ad3230ac28ec36e942e0f51bb77.js": "/muscle-calc/precache-manifest.71035ad3230ac28ec36e942e0f51bb77.js",
+    "precache-manifest.19d4c50d07026ddf4b59f181da92dea4.js": "/muscle-calc/precache-manifest.19d4c50d07026ddf4b59f181da92dea4.js",
     "service-worker.js": "/muscle-calc/service-worker.js",
-    "static/js/2.80a4d0bc.chunk.js.LICENSE.txt": "/muscle-calc/static/js/2.80a4d0bc.chunk.js.LICENSE.txt"
+    "static/js/2.bc5588f1.chunk.js.LICENSE.txt": "/muscle-calc/static/js/2.bc5588f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40ad7d01.js",
-    "static/js/2.80a4d0bc.chunk.js",
-    "static/js/main.4d9ff101.chunk.js"
+    "static/js/2.bc5588f1.chunk.js",
+    "static/js/main.9986e655.chunk.js"
   ]
 }
