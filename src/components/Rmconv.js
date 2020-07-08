@@ -174,9 +174,13 @@ export default function RmConv() {
           <Typography variant="h6" gutterBottom>
             RM換算表
           </Typography>
-          <Typography variant="body2" gutterBottom>
+          <Typography variant="caption" display="block" gutterBottom>
             挙上重量と限界回数の表を作成します。
+          </Typography>
+          <Typography variant="caption" display="block" gutterBottom>
             持ち上げられる重量と回数から、1回だけ持ち上げられる最大重量を知ることができます。
+          </Typography>
+          <Typography variant="caption" display="block" gutterBottom>
             あるいは1回だけ持ち上げられる最大重量から、持ち上げられる重量と回数を知ることができます。
           </Typography>
         </Grid>

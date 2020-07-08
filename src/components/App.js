@@ -15,6 +15,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+import Tooltip from '@material-ui/core/Tooltip';
 
 // @see https://material-ui.com/components/material-icons/
 import BorderAllIcon from '@material-ui/icons/BorderAll';
@@ -223,31 +224,35 @@ export default function PersistentDrawerLeft() {
         })}
       >
         <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            className={clsx(classes.menuButton, {
-              [classes.hide]: open,
-            })}
-          >
-            <MenuIcon />
-          </IconButton>
+          <Tooltip title="メニューを開く">
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              className={clsx(classes.menuButton, {
+                [classes.hide]: open,
+              })}
+            >
+              <MenuIcon />
+            </IconButton>
+          </Tooltip>
           <Typography variant="h6" className={classes.title} noWrap>
 
           </Typography>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleClickOpen}
-            edge="start"
-            className={clsx(classes.menuButton, {
-              [classes.hide]: open,
-            })}
-          >
-            <SettingsIcon/>
-          </IconButton>
+          <Tooltip title="詳細設定">
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleClickOpen}
+              edge="start"
+              className={clsx(classes.menuButton, {
+                [classes.hide]: open,
+              })}
+            >
+              <SettingsIcon/>
+            </IconButton>
+          </Tooltip>
         </Toolbar>
       </AppBar>
 
@@ -275,7 +280,9 @@ export default function PersistentDrawerLeft() {
           {menus.map((row) => (
             <ListItem button key={row.label} component={Link} to={"/" + row.route} onClick={handleDrawerClose}>
               <ListItemIcon>
-                {icon(row.icontype)}
+                <Tooltip title={row.label}>
+                  {icon(row.icontype)}
+                </Tooltip>
               </ListItemIcon>
               <ListItemText primary={row.label} />
             </ListItem>

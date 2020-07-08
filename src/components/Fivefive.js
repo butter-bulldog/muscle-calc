@@ -118,7 +118,7 @@ export default function Fivefive() {
           <Typography variant="h6" gutterBottom>
             5x5法 メニュー生成
           </Typography>
-          <Typography variant="body2" gutterBottom>
+          <Typography variant="caption" display="block" gutterBottom>
             MAX重量を入力することで、5x5法でのトレーニングメニューを生成します。
           </Typography>
         </Grid>

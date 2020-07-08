@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
   },
   Label: {
     fontSize: "small",
-    color: "#fff",
+    color: "#0000008a",
   },
   flex: {
     display: "flex",
@@ -340,7 +340,7 @@ export default function Level() {
           <Typography variant="h6" gutterBottom>
             レベルを知る
           </Typography>
-          <Typography variant="body2" gutterBottom>
+          <Typography variant="caption" display="block" gutterBottom>
             種目別に自分がどの程度のレベルなのかを確認することができます。
           </Typography>
         </Grid>
@@ -422,28 +422,28 @@ export default function Level() {
               <VictoryAxis
                 tickFormat={["基準値"]}
                 style={{
-                  ticks: {stroke: "#d3d3d3", size: 5},
-                  tickLabels: {fontSize: 10, fill: "#fff", padding: 5},
+                  ticks: {stroke: "#0000008a", size: 5},
+                  tickLabels: {fontSize: 10, fill: "#0000008a", padding: 5},
                 }}
               />
               <VictoryAxis
                 dependentAxis
                 tickFormat={graphData.tickFormat}
                 style={{
-                  ticks: {stroke: "#d3d3d3", size: 5},
-                  tickLabels: {fontSize: 10, fill: "#fff", padding: 5}
+                  ticks: {stroke: "#0000008a", size: 5},
+                  tickLabels: {fontSize: 10, fill: "#0000008a", padding: 5}
                 }}
               />
               <VictoryStack
                 horizontal
-                colorScale={[indigo[50], indigo[100], indigo[200], indigo[300], indigo[400], indigo[500]]}
+                colorScale={[indigo[100], indigo[200], indigo[300], indigo[400], indigo[500], indigo[600]]}
                 style={{
                   data: { width: 40 },
-                  labels: { padding: -20, size: 4}
+                  labels: { padding: -20, size: 4},
                 }}
                 labelComponent={
                   <VictoryPortal>
-                    <VictoryLabel dy={-35} style={{fontSize: 10, fill: "white"}}/>
+                    <VictoryLabel dy={-35} style={{fontSize: 10, fill: "#0000008a"}}/>
                   </VictoryPortal>
                 }
               >
