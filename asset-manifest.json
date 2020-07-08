@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/muscle-calc/static/js/main.bebd2aed.chunk.js",
-    "main.js.map": "/muscle-calc/static/js/main.bebd2aed.chunk.js.map",
+    "main.js": "/muscle-calc/static/js/main.4b650bf4.chunk.js",
+    "main.js.map": "/muscle-calc/static/js/main.4b650bf4.chunk.js.map",
     "runtime-main.js": "/muscle-calc/static/js/runtime-main.40ad7d01.js",
     "runtime-main.js.map": "/muscle-calc/static/js/runtime-main.40ad7d01.js.map",
     "static/js/2.bc5588f1.chunk.js": "/muscle-calc/static/js/2.bc5588f1.chunk.js",
     "static/js/2.bc5588f1.chunk.js.map": "/muscle-calc/static/js/2.bc5588f1.chunk.js.map",
     "index.html": "/muscle-calc/index.html",
-    "precache-manifest.0b217d3a91896c3e59cc2b8df03f40a0.js": "/muscle-calc/precache-manifest.0b217d3a91896c3e59cc2b8df03f40a0.js",
+    "precache-manifest.4cd6cfa1dcbaeccc14435c92a081d7fd.js": "/muscle-calc/precache-manifest.4cd6cfa1dcbaeccc14435c92a081d7fd.js",
     "service-worker.js": "/muscle-calc/service-worker.js",
     "static/js/2.bc5588f1.chunk.js.LICENSE.txt": "/muscle-calc/static/js/2.bc5588f1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40ad7d01.js",
     "static/js/2.bc5588f1.chunk.js",
-    "static/js/main.bebd2aed.chunk.js"
+    "static/js/main.4b650bf4.chunk.js"
   ]
 }
