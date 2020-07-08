@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2512892ebfb2d7c1e346273adaa497c",
+    "revision": "c2539d5d8d098fc40f13dc856026f2cc",
     "url": "/muscle-calc/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/muscle-calc/static/js/2.bc5588f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "29a11768ef79e6df9d27",
-    "url": "/muscle-calc/static/js/main.92bc0fdf.chunk.js"
+    "revision": "91bed3928e605d1c1128",
+    "url": "/muscle-calc/static/js/main.e4ccf722.chunk.js"
   },
   {
     "revision": "18253246f4b514e3c6e1",
