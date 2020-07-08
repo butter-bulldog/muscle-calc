@@ -122,9 +122,9 @@ export default function RmConv() {
   // Hooks
   const [values, setValues] = React.useState({
     type: 'benchpress',
-    startWeight: 60,
-    stepWeight: 2.5,
-    numberOfLines: 10,
+    startWeight: '60',
+    stepWeight: '2.5',
+    numberOfLines: '10',
   });
 
   /**
@@ -136,9 +136,10 @@ export default function RmConv() {
 
     values[prop] = event.target.value;
 
-    const startWeight = Number(values.startWeight);
-    const stepWeight = Number(values.stepWeight);
-    const numberOfLines = Number(values.numberOfLines);
+    // 未入力(全削除)を許可したいのでここでは数値変換は行わない
+    const startWeight   = values.startWeight;
+    const stepWeight    = values.stepWeight;
+    const numberOfLines = values.numberOfLines;
 
     setValues({
       type: values.type,
@@ -151,17 +152,21 @@ export default function RmConv() {
   /**
    * 換算表を作成して返す
    * @param {string} type 種目
-   * @param {number} startWeight 開始重量
-   * @param {number} stepWeight 刻み重量
-   * @param {number} numberOfLines 行数
+   * @param {string} startWeight 開始重量
+   * @param {string} stepWeight 刻み重量
+   * @param {string} numberOfLines 行数
    * @returns {[]} 換算表
    */
   function getRows (type, startWeight, stepWeight, numberOfLines)
   {
+    let startWeightNum   = Number(startWeight);
+    let stepWeightNum    = Number(stepWeight);
+    let numberOfLinesNum = Number(numberOfLines);
+
     // 行毎の重量保存用
     let rows = [];
-    for (let i = 0; i < numberOfLines; i++) {
-      let lineStartweight = startWeight + (stepWeight * i);
+    for (let i = 0; i < numberOfLinesNum; i++) {
+      let lineStartweight = startWeightNum + (stepWeightNum * i);
       rows.push(row(type, lineStartweight));
     }
     return rows;
@@ -175,13 +180,7 @@ export default function RmConv() {
             RM換算表
           </Typography>
           <Typography variant="caption" display="block" gutterBottom>
-            挙上重量と限界回数の表を作成します。
-          </Typography>
-          <Typography variant="caption" display="block" gutterBottom>
-            持ち上げられる重量と回数から、1回だけ持ち上げられる最大重量を知ることができます。
-          </Typography>
-          <Typography variant="caption" display="block" gutterBottom>
-            あるいは1回だけ持ち上げられる最大重量から、持ち上げられる重量と回数を知ることができます。
+            挙上重量と限界回数の表を作成します。<br />持ち上げられる重量と回数から、1回だけ持ち上げられる最大重量を知ることができます。<br />あるいは1回だけ持ち上げられる最大重量から、持ち上げられる重量と回数を知ることができます。
           </Typography>
         </Grid>
         <Grid item xs={12}>
