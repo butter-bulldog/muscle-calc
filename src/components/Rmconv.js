@@ -20,7 +20,6 @@ import Grid from '@material-ui/core/Grid';
 // Appコンポーネントの詳細設定のコンテキスト
 import { DetailOptions }  from './App';
 import Tooltip from "@material-ui/core/Tooltip";
-import Toolbar from "@material-ui/core/Toolbar";
 
 const useStyles = makeStyles((theme) => ({
   table: {
