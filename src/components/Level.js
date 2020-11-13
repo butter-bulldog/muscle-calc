@@ -232,7 +232,7 @@ function getGraphData(type, gender, bodyWeight, weight) {
   const weightL3 = Math.round(kgTable[index][3]);
   const weightL4 = Math.round(kgTable[index][4]);
   const weightL5 = Math.round(kgTable[index][5]);
-  
+
   const standards = [
     {x: 1, y: weightL1, label:`未経験\n(${weightL1}kg〜)`},
     {x: 1, y: weightL2-weightL1, label:`初心者\n(${weightL2}kg〜)`},
@@ -338,10 +338,10 @@ export default function Level() {
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <Typography variant="h6" gutterBottom>
-            レベルを知る
+            己のレベルを知る
           </Typography>
           <Typography variant="caption" display="block" gutterBottom>
-            種目別に自分がどの程度のレベルなのかを確認することができます。
+            種目別に自分がどのレベルなのかを確認することができます。
           </Typography>
         </Grid>
 
@@ -443,7 +443,7 @@ export default function Level() {
                 }}
                 labelComponent={
                   <VictoryPortal>
-                    <VictoryLabel dy={-35} style={{fontSize: 10, fill: "#0000008a"}}/>
+                    <VictoryLabel dy={-35} style={{fontSize: 7, fill: "#0000008a"}}/>
                   </VictoryPortal>
                 }
               >
@@ -502,7 +502,7 @@ export default function Level() {
             </VictoryChart>
             <Grid item xs={12}>
               <blockquote>
-                [参考：Starting Strength&nbsp;
+                [参考：
                 <Link href="https://startingstrength.com/files/standards.pdf" color="textSecondary" target="_blank" rel="noreferrer" >
                   Strength Standards
                 </Link>

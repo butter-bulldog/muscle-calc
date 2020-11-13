@@ -129,7 +129,7 @@ function createMenu(label, route, icontype) {
 
 const menus = [
   // ラベル, リンク文字列&表示コンポーネント名, 表示アイコン
-  createMenu('はじめに', 'About', 'ContactSupportIcon'),
+/*  createMenu('はじめに', 'About', 'ContactSupportIcon'), */
   createMenu('レベルを知る', 'Level', 'AssessmentIcon'),
   createMenu('RM換算表', 'RmConv', 'BorderAllIcon'),
   createMenu('MAX重量計算機', 'Maxweight', 'FitnessCenterIcon'),
@@ -321,7 +321,7 @@ export default function PersistentDrawerLeft() {
               <Level />
             </Route>
             <Route path="/">
-              <About />
+              <Level />
             </Route>
           </Switch>
         </main>
@@ -348,7 +348,7 @@ export default function PersistentDrawerLeft() {
                     MAX重量やRM換算はO&apos;Conner式の計算式を使用しています。<br/>
                     係数を自身の記録と照らし合わせて調整を行うことができます。<br/>
                     予測MAX重量より挙がる人は値を下げ、挙がらない人は値を上げてください。<br/>
-                    <blockquote>[参考：Wikipedia <a href={"https://en.wikipedia.org/wiki/One-repetition_maximum#O'Conner_et_al."} color="textSecondary" target={"_blank"} rel={"noopener noreferrer"}>One-repetition maximum</a>]</blockquote>
+                    <blockquote>[参考：<a href={"https://en.wikipedia.org/wiki/One-repetition_maximum#O'Conner_et_al."} color="textSecondary" target={"_blank"} rel={"noopener noreferrer"}>One-repetition maximum</a>]</blockquote>
                   </Alert>
                 </Grid>
 
