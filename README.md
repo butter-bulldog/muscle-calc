@@ -14,7 +14,7 @@
 
 ### デモ
 
-![スクリーンショット 2021-08-29 13 46 27](https://user-images.githubusercontent.com/11142740/131238829-e4c48e03-9566-471d-8a97-3fa93f4672a8.png)
+![スクリーンショット 2021-08-29 14 27 49](https://user-images.githubusercontent.com/11142740/131239659-0849386f-f329-463a-b117-81f7c5566c37.png)
 
 https://butter-bulldog.github.io/muscle-calc/
 
