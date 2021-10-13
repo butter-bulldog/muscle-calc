@@ -130,7 +130,7 @@ function createMenu(label, route, icontype) {
 const menus = [
   // ラベル, リンク文字列&表示コンポーネント名, 表示アイコン
 /*  createMenu('はじめに', 'About', 'ContactSupportIcon'), */
-  createMenu('レベルを知る', 'Level', 'AssessmentIcon'),
+  createMenu('レベル測定', 'Level', 'AssessmentIcon'),
   createMenu('RM換算表', 'RmConv', 'BorderAllIcon'),
   createMenu('MAX重量計算機', 'Maxweight', 'FitnessCenterIcon'),
   createMenu('5x5法 メニュー生成', 'Fivefive', 'Filter5Icon'),
