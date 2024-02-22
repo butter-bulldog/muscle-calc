@@ -1,6 +1,6 @@
 # muscle-calc
 
-[![Build Status](https://api.travis-ci.org/butter-bulldog/muscle-calc.svg?branch=master)](https://api.travis-ci.org/butter-bulldog/muscle-calc.svg?branch=master)
+[![Build Status](https://app.travis-ci.com/butter-bulldog/muscle-calc.svg?branch=master)](https://app.travis-ci.com/butter-bulldog/muscle-calc.svg?branch=master)
 [![Build Status](https://github.com/butter-bulldog/muscle-calc/workflows/build/badge.svg?branch=master)](https://github.com/butter-bulldog/muscle-calc/workflows/build/badge.svg?branch=master)
 
 ビッグ3に関する計算機
